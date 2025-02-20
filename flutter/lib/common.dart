@@ -3617,7 +3617,7 @@ void earlyAssert() {
 }
 
 void checkUpdate() {
-  if (!isWeb) {
+  if (false {
     if (!bind.isCustomClient()) {
       platformFFI.registerEventHandler(
           kCheckSoftwareUpdateFinish, kCheckSoftwareUpdateFinish,
